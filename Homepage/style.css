@@ -311,26 +311,6 @@ section{position:relative;z-index:5;padding:100px 6vw;}
 .step p{font-size:.9rem;opacity:.85;}
 .join-cta{text-align:center;margin-top:46px;position:relative;z-index:2;}
 
-/* ===== ギャラリー ===== */
-.gallery{background:var(--rice);}
-.gallery-grid{
-  display:grid;grid-template-columns:repeat(4,1fr);gap:14px;
-  max-width:1100px;margin:0 auto;
-}
-.gallery-grid .cell{
-  aspect-ratio:1;border-radius:6px;overflow:hidden;position:relative;
-  display:grid;place-items:center;font-size:2.6rem;
-  transition:transform .3s ease;cursor:default;
-}
-.gallery-grid .cell:hover{transform:scale(1.05) rotate(-1deg);z-index:2;}
-.gallery-grid .cell:nth-child(1){background:linear-gradient(135deg,#a9c178,#5c7a45);grid-column:span 2;grid-row:span 2;font-size:4rem;}
-.gallery-grid .cell:nth-child(2){background:linear-gradient(135deg,#8fb0cf,#4a6e8a);}
-.gallery-grid .cell:nth-child(3){background:linear-gradient(135deg,#e0b860,#c8962f);}
-.gallery-grid .cell:nth-child(4){background:linear-gradient(135deg,#c0a060,#8a6d34);}
-.gallery-grid .cell:nth-child(5){background:linear-gradient(135deg,#9bbf6f,#3f5a2e);}
-.gallery-grid .cell:nth-child(6){background:linear-gradient(135deg,#e8c887,#caa24a);}
-.gallery-grid .cell:nth-child(7){background:linear-gradient(135deg,#7fa0b8,#54748e);}
-
 /* ===== アクセス ===== */
 .access{background:var(--paper);}
 .access-grid{
